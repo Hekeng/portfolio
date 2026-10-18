@@ -4,9 +4,9 @@ import { Link } from 'react-router'
 // import './projectStyle.css'
 
 interface ProjectProps {
-	title?: string
-	img?: string
-	path?: string
+	title: string
+	img: string
+	path: string
 	className?: string
 }
 

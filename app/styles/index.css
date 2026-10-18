@@ -3,7 +3,6 @@
 @import 'shadcn/tailwind.css';
 
 @custom-variant dark (&:is(.dark *));
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 
 html {
 	font-size: clamp(62.5%, 0.625rem + 0.2vw, 150%);
@@ -187,7 +186,7 @@ body {
 }
 
 @theme inline {
-	/* --background-image-header: url('/src/assets/img/header-bg.png'); */
+	/* --background-image-header: url('/app/assets/img/header-bg.png'); */
 	/* ---------- TYPOGRAPHY SCALE ---------- */
 	--font-poppins: 'Poppins', sans-serif;
 	/* Headings */
@@ -266,6 +265,9 @@ body {
 	--button-translate-active-y: var(--translate-active-y);
 
 	/*-----------------surfaces---------------------------*/
+
+	--color-popover: var(--popover);
+	--color-popover-foreground: var(--popover-foreground);
 
 	/* --background-image-surface-mixed: var(--noise-texture), var(--subtle-grad); */
 

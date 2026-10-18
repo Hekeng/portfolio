@@ -1,15 +1,18 @@
+import { cn } from '@/lib/utils'
 
-
-
-const SkillCard = ({title, img}) => {
-	return ( 
-			<li className="project">
-			
-			<img src={img} alt="Project img" className="project__img"/>
-			<h3 className="project__title">{title}</h3>
-			
-		</li>
-	 );
+interface SkillCardProps {
+	title: string
+	img: string
+	className?: string
 }
- 
-export default SkillCard;
+
+const SkillCard = ({ title, img, className }: SkillCardProps) => {
+	return (
+		<li className={cn('project', className)}>
+			<img src={img} alt={title} className='project__img' />
+			<h3 className='project__title'>{title}</h3>
+		</li>
+	)
+}
+
+export default SkillCard

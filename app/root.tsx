@@ -1,10 +1,11 @@
 import { Links, Meta, Outlet, Scripts, ScrollRestoration } from "react-router"
-import { ThemeProvider } from "./components/themaController/ThemeProvider";
+import { ThemeProvider } from "./components/themeController/ThemeProvider";
+import "./styles/fonts.css"
 import "./styles/index.css"
 
 export default function App() {
   return (
-    <html lang="ru">
+    <html lang="en">
       <head>
         <Meta />
         <Links />

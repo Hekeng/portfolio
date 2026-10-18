@@ -29,7 +29,7 @@ const projectsData = [
 	{
 		id: '02',
 		title: 'Video service',
-		path: 'video_sevice',
+		path: 'video_service',
 		skills: 'React, Node.js, MongoDB',
 		img: project02,
 		bigImg: project02Big,

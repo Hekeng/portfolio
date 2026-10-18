@@ -39,8 +39,8 @@ type RouteFiles = {
     id: "routes/main-layout";
     page: "/" | "/skills" | "/contacts" | "/projects" | "/projects/:projectPath";
   };
-  "routes/home-page.tsx": {
-    id: "routes/home-page";
+  "routes/HomePage/home-page.tsx": {
+    id: "routes/HomePage/home-page";
     page: "/";
   };
   "routes/skills-page.tsx": {
@@ -64,7 +64,7 @@ type RouteFiles = {
 type RouteModules = {
   "root": typeof import("./app/root.tsx");
   "routes/main-layout": typeof import("./app/routes/main-layout.tsx");
-  "routes/home-page": typeof import("./app/routes/home-page.tsx");
+  "routes/HomePage/home-page": typeof import("./app/routes/HomePage/home-page.tsx");
   "routes/skills-page": typeof import("./app/routes/skills-page.tsx");
   "routes/contacts-page": typeof import("./app/routes/contacts-page.tsx");
   "routes/projects-list-page": typeof import("./app/routes/projects-list-page.tsx");

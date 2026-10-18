@@ -1,11 +1,8 @@
-// Список поддерживаемых языков
-export const SUPPORTED_LANGS = ["en", "ru"] as const;
+export const SUPPORTED_LANGS = ["en", "de", "ru"] as const;
 
-// Тип для TypeScript, чтобы он знал, что мы работаем только с этими языками
 export type SupportedLng = (typeof SUPPORTED_LANGS)[number];
 
-// Язык по умолчанию
-export const DEFAULT_LANG: SupportedLng = "ru";
+export const DEFAULT_LANG: SupportedLng = "en";
 
 /**
  * Вспомогательная функция (понадобится позже), 
@@ -14,3 +11,4 @@ export const DEFAULT_LANG: SupportedLng = "ru";
 export function isSupportedLang(lng: string): lng is SupportedLng {
   return SUPPORTED_LANGS.includes(lng as SupportedLng);
 }
+
