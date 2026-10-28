@@ -59,6 +59,28 @@ const DownloadIcon = ({ className }: IconsProps) => (
 	</svg>
 )
 
+/** Solid filled bars.
+ *  - size in px (not rem): root font-size is fluid clamp → rem often hits half-pixels → blur
+ *  - shape-rendering crispEdges: snap fills to pixels (good for axis-aligned bars)
+ *  - integer viewBox coords + no rx: rounded corners fight crispEdges and look soft
+ */
+const BurgerIcon = ({ className }: IconsProps) => {
+	return (
+		<svg
+			viewBox='0 0 24 24'
+			fill='currentColor'
+			xmlns='http://www.w3.org/2000/svg'
+			aria-hidden
+			shapeRendering='crispEdges'
+			className={cn('block h-[14px] w-[18px]', className)}
+		>
+			<rect x='0' y='3' width='24' height='4' />
+			<rect x='0' y='10' width='24' height='4' />
+			<rect x='0' y='17' width='24' height='4' />
+		</svg>
+	)
+}
+
 // <defs>
 // 	{/* <!-- настройки --> */}
 // 	<style>
@@ -83,4 +105,4 @@ const DownloadIcon = ({ className }: IconsProps) => (
 // 	  );
 // }
 
-export { Sun, Moon, DownloadIcon }
+export { Sun, Moon, DownloadIcon, BurgerIcon }

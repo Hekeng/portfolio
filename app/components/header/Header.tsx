@@ -1,9 +1,12 @@
+import { useMemo } from 'react'
 import { Link } from 'react-router'
-import NavItem from './HeaderItem'
+import { useTranslation } from 'react-i18next'
 
+import NavItem from './HeaderItem'
 import { menuItems } from '../helpers/ProjectsList'
 import DarkModeBtn from '../darkModeBtn/DarkModeBtn'
 import { cn } from '@/lib/utils'
+import { getPath, resolvePathLang } from '@/lib/localizedPaths'
 import SwitchLanguageSelect from '../switchLanguageSelect/switchLanguageSelect'
 import MobileNav from './MobileNav'
 
@@ -24,6 +27,37 @@ const switchItemClassName =
 	'gap-[0.4rem] px-[0.4rem] py-[0.4rem] text-[1.4rem] font-medium text-primary focus:bg-accent focus:text-primary data-[highlighted]:bg-accent data-[highlighted]:text-primary'
 
 export const Header = ({ className }: headerProps) => {
+	const { t, i18n } = useTranslation('common')
+
+	const logoName = t('logo_name')
+	const logoSuffix = t('logo_suffix')
+
+	const currentLang = useMemo(() => {
+		const lang = resolvePathLang(i18n.language.slice(0, 2))
+		return lang
+	}, [i18n.language])
+
+	const homePath = useMemo(() => {
+		const path = getPath('home', currentLang)
+		return path
+	}, [currentLang])
+
+	const translatedMenuItems = useMemo(() => {
+		const items = menuItems.map((menuItem) => {
+			const label = t(menuItem.labelKey)
+			const path = getPath(menuItem.pageId, currentLang)
+
+			return {
+				pageId: menuItem.pageId,
+				path: path,
+				label: label,
+				labelKey: menuItem.labelKey,
+			}
+		})
+
+		return items
+	}, [t, currentLang])
+
 	return (
 		<header className={cn([`nav`, className])}>
 			{/*
@@ -34,16 +68,16 @@ export const Header = ({ className }: headerProps) => {
 				<MobileNav />
 
 				<Link
-					to='/'
+					to={homePath}
 					className='logo text-primary hover:text-primary/80 active:text-primary duration-base ease-soft mr-auto hidden shrink text-[clamp(1.6rem,2.2vw,2.5rem)] whitespace-nowrap transition-all hover:-translate-y-[0.2rem] active:translate-y-0 sm:inline'
 				>
-					<strong className='font-bold'>Deweloper</strong> portfolio
+					<strong className='font-bold'>{logoName}</strong> {logoSuffix}
 				</Link>
 
 				<ul className='nav-list text-primary font-poppins hidden flex-nowrap items-center gap-x-[clamp(0.6rem,1.2vw,1rem)] text-[clamp(1.4rem,1.7vw,1.8rem)] font-medium whitespace-nowrap sm:flex'>
-					{menuItems.map((menuItem) => {
+					{translatedMenuItems.map((menuItem) => {
 						return (
-							<NavItem key={menuItem.label} to={menuItem.path}>
+							<NavItem key={menuItem.labelKey} to={menuItem.path}>
 								{menuItem.label}
 							</NavItem>
 						)

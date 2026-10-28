@@ -1,3 +1,5 @@
+import type { PageId } from '@/lib/localizedPaths'
+
 import project01 from '@/assets/img/projects/01.jpg'
 import project01Big from '@/assets/img/projects/01-big.jpg'
 
@@ -73,11 +75,16 @@ const projectsData = [
 	},
 ]
 
-const menuItems = [
-	{ path: '/', label: 'Home' },
-	{ path: '/projects', label: 'Projects' },
-	{ path: '/contacts', label: 'Contacts' },
-	{ path: '/skills', label: 'Skills' },
+type MenuItem = {
+	pageId: PageId
+	labelKey: string
+}
+
+const menuItems: Array<MenuItem> = [
+	{ pageId: 'home', labelKey: 'menu_home' },
+	{ pageId: 'projects', labelKey: 'menu_projects' },
+	{ pageId: 'contacts', labelKey: 'menu_contacts' },
+	{ pageId: 'skills', labelKey: 'menu_skills' },
 ]
 
 const Skills = [

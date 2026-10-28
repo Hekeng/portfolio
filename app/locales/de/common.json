@@ -1,0 +1,15 @@
+{
+	"logo_name": "Deweloper",
+	"logo_suffix": "portfolio",
+	"menu_home": "Start",
+	"menu_projects": "Projekte",
+	"menu_contacts": "Kontakt",
+	"menu_skills": "Skills",
+	"hero_greeting": "Hallo, ich heiße",
+	"hero_name": "№№№№",
+	"hero_role": "Webentwickler",
+	"hero_subtitle": "mit Leidenschaft fürs Lernen und Erschaffen.",
+	"button_download": "Herunterladen",
+	"a11y_open_menu": "Menü öffnen",
+	"a11y_close_menu": "Menü schließen"
+}

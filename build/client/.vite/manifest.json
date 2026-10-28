@@ -1,6 +1,6 @@
 {
-  "_ProjectsList-D0XvgEFZ.js": {
-    "file": "assets/ProjectsList-D0XvgEFZ.js",
+  "_ProjectsList-CKm4Yf2h.js": {
+    "file": "assets/ProjectsList-CKm4Yf2h.js",
     "name": "ProjectsList",
     "assets": [
       "assets/01-D3N_4iWo.jpg",
@@ -17,57 +17,91 @@
       "assets/06-big-zUlnKr6h.jpg"
     ]
   },
-  "_ThemeProvider-B_GSt6bL.js": {
-    "file": "assets/ThemeProvider-B_GSt6bL.js",
+  "_ThemeProvider-DsHiW2b_.js": {
+    "file": "assets/ThemeProvider-DsHiW2b_.js",
     "name": "ThemeProvider",
     "imports": [
       "_jsx-runtime-u17CrQMm.js",
-      "_chunk-LFPYN7LY-Dh0g81g1.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js"
     ]
   },
-  "_button-eHWj-Fqy.js": {
-    "file": "assets/button-eHWj-Fqy.js",
+  "_button-BhqtPxih.js": {
+    "file": "assets/button-BhqtPxih.js",
     "name": "button",
     "imports": [
       "_jsx-runtime-u17CrQMm.js",
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
-      "_utils-CiB0LXSo.js",
-      "_index-Br9udHcz.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
+      "_utils-CiB0LXSo.js"
     ]
   },
-  "_chunk-LFPYN7LY-Dh0g81g1.js": {
-    "file": "assets/chunk-LFPYN7LY-Dh0g81g1.js",
+  "_chunk-LFPYN7LY-DeYnfVBh.js": {
+    "file": "assets/chunk-LFPYN7LY-DeYnfVBh.js",
     "name": "chunk-LFPYN7LY"
   },
-  "_createLucideIcon-COirOXdN.js": {
-    "file": "assets/createLucideIcon-COirOXdN.js",
+  "_createLucideIcon-BM72I_c5.js": {
+    "file": "assets/createLucideIcon-BM72I_c5.js",
     "name": "createLucideIcon",
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js"
     ]
   },
-  "_index-Br9udHcz.js": {
-    "file": "assets/index-Br9udHcz.js",
-    "name": "index",
-    "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
-      "_jsx-runtime-u17CrQMm.js"
-    ]
+  "_i18nInstance-DZchKr1a.js": {
+    "file": "assets/i18nInstance-DZchKr1a.js",
+    "name": "i18nInstance"
   },
-  "_index-Gw21CdAF.js": {
-    "file": "assets/index-Gw21CdAF.js",
+  "_index-BSi1fscP.js": {
+    "file": "assets/index-BSi1fscP.js",
     "name": "index",
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js"
     ]
   },
   "_jsx-runtime-u17CrQMm.js": {
     "file": "assets/jsx-runtime-u17CrQMm.js",
     "name": "jsx-runtime"
   },
+  "_localizedPaths-BuIAG5SR.js": {
+    "file": "assets/localizedPaths-BuIAG5SR.js",
+    "name": "localizedPaths",
+    "imports": [
+      "_i18nInstance-DZchKr1a.js"
+    ]
+  },
+  "_useTranslation-L89sjYdp.js": {
+    "file": "assets/useTranslation-L89sjYdp.js",
+    "name": "useTranslation",
+    "imports": [
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
+      "_i18nInstance-DZchKr1a.js"
+    ]
+  },
   "_utils-CiB0LXSo.js": {
     "file": "assets/utils-CiB0LXSo.js",
     "name": "utils"
+  },
+  "app/assets/fonts/poppins/poppins-latin-400-normal.woff2": {
+    "file": "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-400-normal.woff2"
+  },
+  "app/assets/fonts/poppins/poppins-latin-500-normal.woff2": {
+    "file": "assets/poppins-latin-500-normal-C8OXljZJ.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-500-normal.woff2"
+  },
+  "app/assets/fonts/poppins/poppins-latin-700-normal.woff2": {
+    "file": "assets/poppins-latin-700-normal-Qrb0O0WB.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-700-normal.woff2"
+  },
+  "app/assets/fonts/poppins/poppins-latin-ext-400-normal.woff2": {
+    "file": "assets/poppins-latin-ext-400-normal-by3JarPu.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-ext-400-normal.woff2"
+  },
+  "app/assets/fonts/poppins/poppins-latin-ext-500-normal.woff2": {
+    "file": "assets/poppins-latin-ext-500-normal-CK-6C4Hw.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-ext-500-normal.woff2"
+  },
+  "app/assets/fonts/poppins/poppins-latin-ext-700-normal.woff2": {
+    "file": "assets/poppins-latin-ext-700-normal-cby-RkWa.woff2",
+    "src": "app/assets/fonts/poppins/poppins-latin-ext-700-normal.woff2"
   },
   "app/assets/img/projects/01-big.jpg": {
     "file": "assets/01-big-CqIbrJM6.jpg",
@@ -118,103 +152,119 @@
     "src": "app/assets/img/projects/06.jpg"
   },
   "app/root.tsx?__react-router-build-client-route": {
-    "file": "assets/root-Dn01P4CP.js",
+    "file": "assets/root-DyQ-OxCV.js",
     "name": "root",
     "src": "app/root.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js",
-      "_ThemeProvider-B_GSt6bL.js"
+      "_localizedPaths-BuIAG5SR.js",
+      "_ThemeProvider-DsHiW2b_.js",
+      "_useTranslation-L89sjYdp.js",
+      "_i18nInstance-DZchKr1a.js"
     ],
     "css": [
-      "assets/root-TC7TZsSE.css"
+      "assets/root-BltmsGO7.css"
+    ],
+    "assets": [
+      "assets/poppins-latin-ext-400-normal-by3JarPu.woff2",
+      "assets/poppins-latin-400-normal-cpxAROuN.woff2",
+      "assets/poppins-latin-ext-500-normal-CK-6C4Hw.woff2",
+      "assets/poppins-latin-500-normal-C8OXljZJ.woff2",
+      "assets/poppins-latin-ext-700-normal-cby-RkWa.woff2",
+      "assets/poppins-latin-700-normal-Qrb0O0WB.woff2"
     ]
   },
   "app/routes/HomePage/home-page.tsx?__react-router-build-client-route": {
-    "file": "assets/home-page-C3cQX_h7.js",
+    "file": "assets/home-page-DvQ_J74f.js",
     "name": "home-page",
     "src": "app/routes/HomePage/home-page.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js",
-      "_button-eHWj-Fqy.js",
-      "_createLucideIcon-COirOXdN.js",
+      "_button-BhqtPxih.js",
+      "_createLucideIcon-BM72I_c5.js",
       "_utils-CiB0LXSo.js",
-      "_index-Br9udHcz.js"
+      "_useTranslation-L89sjYdp.js",
+      "_i18nInstance-DZchKr1a.js"
     ]
   },
   "app/routes/contacts-page.tsx?__react-router-build-client-route": {
-    "file": "assets/contacts-page-CbGygMf3.js",
+    "file": "assets/contacts-page-CqsJXD94.js",
     "name": "contacts-page",
     "src": "app/routes/contacts-page.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js"
     ]
   },
   "app/routes/main-layout.tsx?__react-router-build-client-route": {
-    "file": "assets/main-layout-CqbxEhV0.js",
+    "file": "assets/main-layout-e6CJQ9Vt.js",
     "name": "main-layout",
     "src": "app/routes/main-layout.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js",
       "_utils-CiB0LXSo.js",
-      "_ProjectsList-D0XvgEFZ.js",
-      "_ThemeProvider-B_GSt6bL.js",
-      "_createLucideIcon-COirOXdN.js",
-      "_index-Gw21CdAF.js",
-      "_index-Br9udHcz.js"
+      "_ProjectsList-CKm4Yf2h.js",
+      "_ThemeProvider-DsHiW2b_.js",
+      "_createLucideIcon-BM72I_c5.js",
+      "_localizedPaths-BuIAG5SR.js",
+      "_index-BSi1fscP.js",
+      "_button-BhqtPxih.js",
+      "_useTranslation-L89sjYdp.js",
+      "_i18nInstance-DZchKr1a.js"
     ]
   },
   "app/routes/project-details-page.tsx?__react-router-build-client-route": {
-    "file": "assets/project-details-page-xIOdf_T3.js",
+    "file": "assets/project-details-page-6VWFpM_8.js",
     "name": "project-details-page",
     "src": "app/routes/project-details-page.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js",
-      "_button-eHWj-Fqy.js",
-      "_ProjectsList-D0XvgEFZ.js",
-      "_utils-CiB0LXSo.js",
-      "_index-Br9udHcz.js"
+      "_button-BhqtPxih.js",
+      "_ProjectsList-CKm4Yf2h.js",
+      "_utils-CiB0LXSo.js"
     ]
   },
   "app/routes/projects-list-page.tsx?__react-router-build-client-route": {
-    "file": "assets/projects-list-page-BiWF_tah.js",
+    "file": "assets/projects-list-page-CpoXFNGs.js",
     "name": "projects-list-page",
     "src": "app/routes/projects-list-page.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
       "_jsx-runtime-u17CrQMm.js",
       "_utils-CiB0LXSo.js",
-      "_ProjectsList-D0XvgEFZ.js"
+      "_ProjectsList-CKm4Yf2h.js",
+      "_localizedPaths-BuIAG5SR.js",
+      "_i18nInstance-DZchKr1a.js"
     ]
   },
   "app/routes/skills-page.tsx?__react-router-build-client-route": {
-    "file": "assets/skills-page-DVDyRcMB.js",
+    "file": "assets/skills-page-Bx-pnTyJ.js",
     "name": "skills-page",
     "src": "app/routes/skills-page.tsx?__react-router-build-client-route",
     "isEntry": true,
     "imports": [
-      "_chunk-LFPYN7LY-Dh0g81g1.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js"
     ]
   },
   "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx": {
-    "file": "assets/entry.client-cpjaJTLH.js",
+    "file": "assets/entry.client-CslJ_FLm.js",
     "name": "entry.client",
     "src": "node_modules/@react-router/dev/dist/config/defaults/entry.client.tsx",
     "isEntry": true,
     "imports": [
       "_jsx-runtime-u17CrQMm.js",
-      "_chunk-LFPYN7LY-Dh0g81g1.js",
-      "_index-Gw21CdAF.js"
+      "_chunk-LFPYN7LY-DeYnfVBh.js",
+      "_index-BSi1fscP.js"
     ]
   }
 }

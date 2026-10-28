@@ -1,0 +1,15 @@
+{
+	"logo_name": "Deweloper",
+	"logo_suffix": "portfolio",
+	"menu_home": "Главная",
+	"menu_projects": "Проекты",
+	"menu_contacts": "Контакты",
+	"menu_skills": "Навыки",
+	"hero_greeting": "Привет, меня зовут",
+	"hero_name": "####",
+	"hero_role": "веб-разработчик",
+	"hero_subtitle": "со страстью к обучению и созданию.",
+	"button_download": "Скачать",
+	"a11y_open_menu": "Открыть меню",
+	"a11y_close_menu": "Закрыть меню"
+}

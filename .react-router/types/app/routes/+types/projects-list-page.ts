@@ -16,7 +16,16 @@ type Matches = [{
   id: "routes/main-layout";
   module: typeof import("../main-layout.js");
 }, {
-  id: "routes/projects-list-page";
+  id: "en.routes/projects-list-page.tsx";
+  module: typeof import("../projects-list-page.js");
+}] | [{
+  id: "root";
+  module: typeof import("../../root.js");
+}, {
+  id: "routes/main-layout";
+  module: typeof import("../main-layout.js");
+}, {
+  id: "de.routes/projects-list-page.tsx";
   module: typeof import("../projects-list-page.js");
 }];
 

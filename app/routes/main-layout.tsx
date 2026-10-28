@@ -8,9 +8,6 @@ export default function MainLayout() {
     <div className='bg-background text-foreground selection:bg-primary/30 flex min-h-screen flex-col'>
       <Header className='border-dark bg-background text-primary sticky top-0 z-[1000] border-b border-solid px-[3rem] py-[0.5rem] tracking-normal'  />
       
-      {/* Магия здесь: Outlet — это место, куда роутер 
-          подставит HomePage, ProjectsPage и т.д. */}
-      	{/* <main className="flex-grow"> */}
 
        	 <Outlet /> 
 

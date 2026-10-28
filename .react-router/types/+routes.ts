@@ -20,7 +20,13 @@ type Pages = {
   "/contacts": {
     params: {};
   };
+  "/kontakt": {
+    params: {};
+  };
   "/projects": {
+    params: {};
+  };
+  "/projekte": {
     params: {};
   };
   "/projects/:projectPath": {
@@ -33,11 +39,11 @@ type Pages = {
 type RouteFiles = {
   "root.tsx": {
     id: "root";
-    page: "/" | "/skills" | "/contacts" | "/projects" | "/projects/:projectPath";
+    page: "/" | "/skills" | "/contacts" | "/kontakt" | "/projects" | "/projekte" | "/projects/:projectPath";
   };
   "routes/main-layout.tsx": {
     id: "routes/main-layout";
-    page: "/" | "/skills" | "/contacts" | "/projects" | "/projects/:projectPath";
+    page: "/" | "/skills" | "/contacts" | "/kontakt" | "/projects" | "/projekte" | "/projects/:projectPath";
   };
   "routes/HomePage/home-page.tsx": {
     id: "routes/HomePage/home-page";
@@ -48,12 +54,18 @@ type RouteFiles = {
     page: "/skills";
   };
   "routes/contacts-page.tsx": {
-    id: "routes/contacts-page";
+    id: "en.routes/contacts-page.tsx";
     page: "/contacts";
+  } | {
+    id: "de.routes/contacts-page.tsx";
+    page: "/kontakt";
   };
   "routes/projects-list-page.tsx": {
-    id: "routes/projects-list-page";
+    id: "en.routes/projects-list-page.tsx";
     page: "/projects";
+  } | {
+    id: "de.routes/projects-list-page.tsx";
+    page: "/projekte";
   };
   "routes/project-details-page.tsx": {
     id: "routes/project-details-page";
@@ -66,7 +78,9 @@ type RouteModules = {
   "routes/main-layout": typeof import("./app/routes/main-layout.tsx");
   "routes/HomePage/home-page": typeof import("./app/routes/HomePage/home-page.tsx");
   "routes/skills-page": typeof import("./app/routes/skills-page.tsx");
-  "routes/contacts-page": typeof import("./app/routes/contacts-page.tsx");
-  "routes/projects-list-page": typeof import("./app/routes/projects-list-page.tsx");
+  "en.routes/contacts-page.tsx": typeof import("./app/routes/contacts-page.tsx");
+  "de.routes/contacts-page.tsx": typeof import("./app/routes/contacts-page.tsx");
+  "en.routes/projects-list-page.tsx": typeof import("./app/routes/projects-list-page.tsx");
+  "de.routes/projects-list-page.tsx": typeof import("./app/routes/projects-list-page.tsx");
   "routes/project-details-page": typeof import("./app/routes/project-details-page.tsx");
 };

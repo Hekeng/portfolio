@@ -1,0 +1,15 @@
+{
+	"logo_name": "Deweloper",
+	"logo_suffix": "portfolio",
+	"menu_home": "Home",
+	"menu_projects": "Projects",
+	"menu_contacts": "Contacts",
+	"menu_skills": "Skills",
+	"hero_greeting": "Hi, my name is",
+	"hero_name": "####",
+	"hero_role": "a web developer",
+	"hero_subtitle": "with passion for learning and creating.",
+	"button_download": "Download",
+	"a11y_open_menu": "Open menu",
+	"a11y_close_menu": "Close menu"
+}
